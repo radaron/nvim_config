@@ -10,3 +10,4 @@ source $HOME/.config/nvim/conf/settings.vim
 source $HOME/.config/nvim/conf/signify.vim
 source $HOME/.config/nvim/conf/coc.vim
 source $HOME/.config/nvim/conf/tagbar.vim
+source $HOME/.config/nvim/conf/lightline.vim

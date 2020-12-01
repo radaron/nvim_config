@@ -13,6 +13,9 @@ Plug 'mhinz/vim-signify' " Show git diffs
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'} " Intelicence for python
 
+" Vim gitbranch plugin
+Plug 'https://github.com/itchyny/vim-gitbranch.git'
+
 " Tagbar plugin (List classes and their methods)
 Plug 'https://github.com/majutsushi/tagbar.git'
 
