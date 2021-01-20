@@ -10,6 +10,7 @@
   * show plantuml
   * ftplugin (different config for filetypes)
     * see .config/nvim/after
+  * syntastic
 
 # Install
 ```
