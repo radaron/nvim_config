@@ -25,4 +25,7 @@ Plug 'https://github.com/weirongxu/plantuml-previewer.vim.git'
 " Open browser plugin
 Plug 'https://github.com/tyru/open-browser.vim.git'
 
+" Syntax checking plugin
+Plug 'https://github.com/vim-syntastic/syntastic.git'
+
 call plug#end()
