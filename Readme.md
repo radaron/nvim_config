@@ -19,8 +19,12 @@ homesick link nvim_config
 ```
 
 ## Do manually
-* python3.6 -m pip install neovim (for semshi)
+* pip3 install neovim (for semshi)
+* pip3 install -U jedi-language-server
 * In neovim run:
   * :PlugInstall
   * :UpdateRemotePlugins
-  * :CocInstall coc-python
+  * :CocInstall coc-jedi
+  * :CocInstall coc-yaml
+  * :CocInstall coc-json
+  * :CocInstall coc-sh
