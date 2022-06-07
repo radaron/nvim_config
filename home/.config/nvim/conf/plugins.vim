@@ -11,7 +11,7 @@ Plug 'itchyny/lightline.vim'
 
 Plug 'mhinz/vim-signify' " Show git diffs
 
-Plug 'neoclide/coc.nvim', {'branch': 'release'} " Intelicence for python
+Plug 'neoclide/coc.nvim', {'branch': 'release'} " Code completion
 
 " Vim gitbranch plugin
 Plug 'https://github.com/itchyny/vim-gitbranch.git'

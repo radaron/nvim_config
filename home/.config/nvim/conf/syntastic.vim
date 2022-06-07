@@ -10,8 +10,8 @@ let g:syntastic_aggregate_errors = 1
 let g:syntastic_check_on_wq = 0
 " no checks on file saves, only when 'SyntasticCheck' is called:
 let g:syntastic_mode_map = { "mode": "passive" }
-" only use pylint
-let g:syntastic_python_checkers=['pylint']
+" Use pylint and flake8
+let g:syntastic_python_checkers=['pylint', 'flake8']
 " key mapping for syntax-check:
 nnoremap <F5> :w<CR>:silent SyntasticCheck<CR>:setlocal nowrap<CR>
 " key mapping for resetting (removing) syntax errors

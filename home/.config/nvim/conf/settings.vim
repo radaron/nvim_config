@@ -18,5 +18,8 @@ map <C-e> :Explore<CR>
 " Automatically remove trailing whitespace in :w
 autocmd BufWritePre * %s/\s\+$//e
 
-"Disable Ruby checking in healthcheck
+" Disable Ruby checking in healthcheck
 let g:loaded_ruby_provider = 0
+
+" Find the highlighted text with //
+vnoremap // y/<C-R>"<CR>
