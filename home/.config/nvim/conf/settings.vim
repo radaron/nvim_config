@@ -23,3 +23,6 @@ let g:loaded_ruby_provider = 0
 
 " Find the highlighted text with //
 vnoremap // y/<C-R>"<CR>
+
+" Toggle git blame
+nnoremap <silent> gb :ToggleBlameLine<CR>

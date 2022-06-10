@@ -7,7 +7,9 @@ Plug 'editorconfig/editorconfig-vim' " editor-agnostic style config
 
 Plug 'numirias/semshi', {'do': ':UpdateRemotePlugins'}
 
-Plug 'itchyny/lightline.vim'
+" Plug 'itchyny/lightline.vim'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
 Plug 'mhinz/vim-signify' " Show git diffs
 
@@ -27,5 +29,11 @@ Plug 'https://github.com/tyru/open-browser.vim.git'
 
 " Syntax checking plugin
 Plug 'https://github.com/vim-syntastic/syntastic.git'
+
+" Show git blame on lines
+Plug 'tveskag/nvim-blame-line'
+
+" Show git branch on airline
+Plug 'tpope/vim-fugitive'
 
 call plug#end()
