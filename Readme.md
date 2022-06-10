@@ -5,7 +5,7 @@
   * editor config
   * tagbar (show functions/classes names)
   * semshi
-  * lightline
+  * airline
   * open browser
   * show plantuml
   * ftplugin (different config for filetypes)
@@ -19,6 +19,7 @@ homesick link nvim_config
 ```
 
 ## Do manually
+* sudo apt-get install fonts-powerline
 * pip3 install neovim (for semshi)
 * pip3 install -U jedi-language-server
 * In neovim run:
