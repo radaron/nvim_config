@@ -36,4 +36,7 @@ Plug 'tveskag/nvim-blame-line'
 " Show git branch on airline
 Plug 'tpope/vim-fugitive'
 
+" Show line indent
+Plug 'Yggdroot/indentLine'
+
 call plug#end()
