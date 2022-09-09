@@ -30,6 +30,7 @@
     "__pycache__",
     "venv"
   ],
+  "json.validate.enable": false,
   "yaml.customTags": [
     "!fn",
     "!And",
