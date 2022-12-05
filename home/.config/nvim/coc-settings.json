@@ -31,6 +31,7 @@
     "venv"
   ],
   "json.validate.enable": false,
+  "yaml.validate": false,
   "yaml.customTags": [
     "!fn",
     "!And",

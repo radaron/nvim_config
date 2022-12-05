@@ -12,3 +12,4 @@ source $HOME/.config/nvim/conf/coc.vim
 source $HOME/.config/nvim/conf/tagbar.vim
 source $HOME/.config/nvim/conf/syntastic.vim
 source $HOME/.config/nvim/conf/airline.vim
+source $HOME/.config/nvim/conf/diff.vim

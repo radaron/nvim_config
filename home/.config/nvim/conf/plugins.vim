@@ -39,4 +39,8 @@ Plug 'tpope/vim-fugitive'
 " Show line indent
 Plug 'Yggdroot/indentLine'
 
+" Vim diff plugin
+Plug 'nvim-lua/plenary.nvim'
+Plug 'sindrets/diffview.nvim'
+
 call plug#end()
