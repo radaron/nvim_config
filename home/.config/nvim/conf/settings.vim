@@ -26,3 +26,6 @@ vnoremap // y/<C-R>"<CR>
 
 " Toggle git blame
 nnoremap <silent> gb :ToggleBlameLine<CR>
+
+" Disable quote concealing in JSON files
+let g:vim_json_conceal=0
